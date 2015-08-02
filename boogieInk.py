@@ -1,6 +1,21 @@
+# Copyright (c) 2015 Laxmianarayan G Kamath A kamathln@gmail.com
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+# 
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import xml.dom.minidom, re
 
 class BoogiePen(object):
+    """ Simple class used by BoogieInkParser to maintain pen state """
     def __init__(self):
         self.reset()
     def reset(self):
@@ -11,6 +26,7 @@ class BoogiePen(object):
         
 
 class BoogieInkParser(object):
+    """ Ink Parser class.  """
     def __init__(self,ink_string):
         self.boogie_trace_point_regex = re.compile("\"?'?-?[0-9]+|\*")
         self.ink_string = ink_string
@@ -20,7 +36,7 @@ class BoogieInkParser(object):
     
     def parseTraceSimple(self,trace_dom):
         for trace_point in [re.findall(self.boogie_trace_point_regex, x.strip()) for x in trace_dom.childNodes[0].wholeText.split(',')]:
-            self.simpleTracePointHandler(tracepoint)
+            self.simpleTracePointHandler(trace_dom,trace_point)
             
     def parseTraceTracked(self,trace_dom):
         for trace_point in [re.findall(self.boogie_trace_point_regex, x.strip()) for x in trace_dom.childNodes[0].wholeText.split(',')]:
