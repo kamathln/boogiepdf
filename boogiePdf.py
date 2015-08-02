@@ -1,7 +1,7 @@
 import pdfrw
 import boogieInk
 
-class BoogiePDFParser():
+class BoogiePDFParser(object):
     def __init__(self,filename):
         self.filename = filename
         self.inkml_string = self.getInkML()
