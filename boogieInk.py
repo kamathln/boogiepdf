@@ -32,14 +32,18 @@ class BoogieInkParser(object):
         self.ink_string = ink_string
         self.ink_dom = xml.dom.minidom.parseString(self.ink_string)
         self.pen = BoogiePen()
+        self.numof_traces = len(self.ink_dom.getElementsByTagNameNS('http://www.w3.org/2003/InkML','trace')) 
         
-    
     def parseTraceSimple(self,trace_dom):
-        for trace_point in [re.findall(self.boogie_trace_point_regex, x.strip()) for x in trace_dom.childNodes[0].wholeText.split(',')]:
-            self.simpleTracePointHandler(trace_dom,trace_point)
+        trace_points = [re.findall(self.boogie_trace_point_regex, x.strip()) for x in trace_dom.childNodes[0].wholeText.split(',')]
+        trace_points_len = len(trace_points)
+        for trace_point in trace_points:
+            self.simpleTracePointHandler(trace_dom,trace_point,trace_points_len)
             
     def parseTraceTracked(self,trace_dom):
-        for trace_point in [re.findall(self.boogie_trace_point_regex, x.strip()) for x in trace_dom.childNodes[0].wholeText.split(',')]:
+        trace_points = [re.findall(self.boogie_trace_point_regex, x.strip()) for x in trace_dom.childNodes[0].wholeText.split(',')]
+        trace_points_len = len(trace_points)
+        for trace_point in trace_points:
     #        print trace_point
             for i in [0,1,2]:
                 if trace_point[i][0] in ['"',"'"]:
@@ -69,7 +73,7 @@ class BoogieInkParser(object):
                 else:
                     self.pen.coords[i] += self.pen.velocity[i]
     
-            self.trackedTracePointHandler(trace_dom,self.pen.coords)
+            self.trackedTracePointHandler(trace_dom,self.pen.coords,trace_points_len)
             
     
     def parse(self,simple = False):
@@ -95,10 +99,10 @@ class BoogieInkParser(object):
     def traceBeginHandler(self,trace):
         pass
     
-    def simpleTracePointHandler(self,trace):
+    def simpleTracePointHandler(self,trace,trace_point,trace_len):
         pass
 
-    def trackedTracePointHandler(self,trace,trace_point):
+    def trackedTracePointHandler(self,trace,trace_point,trace_len):
         pass
 
     def traceEndHandler(self,trace):

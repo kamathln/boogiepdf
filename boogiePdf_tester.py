@@ -27,11 +27,11 @@ class BoogieInkTracePrinter(boogieInk.BoogieInkParser):
         self.tracepoint_counter = 0
         print ("Trace #{0} begins".format(self.trace_counter))
 
-    def trackedTracePointHandler(self,trace,trace_point):
+    def trackedTracePointHandler(self,trace,trace_point,trace_len):
         self.tracepoint_counter +=1
         print ("X: {0}, Y:{1}, Pressure: {2}".format (*trace_point))
 
-    def simpleTracePointHandler(self,trace,trace_point):
+    def simpleTracePointHandler(self,trace,trace_point,trace_len):
         self.tracepoint_counter +=1
         xyf='XYF'
 
