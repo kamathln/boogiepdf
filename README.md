@@ -18,8 +18,24 @@ http://myboogieboard.com/products/boogie-board-sync-9.html
   * You may pass True or False to the "simple" parameter which affects whether it calls "simpleTracePointParser" or "trackedTracePointParser"
 * Alternatively you could use only boogieInk which does not depend on pdfrw, but you will have to extract the InkML yourself.
 
+### Gimp Plugin
+* warning :
+  * it is currently very slow. 
+* Installing 
+  * copy the files file-boogieboardpdfinkml-load.py, boogiePdf.py and boogieInk.py to yourhomefolder/gimp-2.8/plugins/ folder or /usr/lib/gimp/2.0/plugins or the plugins
+* Using
+  * start gimp (if already running, you will need to terminate it first) 
+  * choose a good brush for painting and set an appropriate brush 
+  * fire the open dialog and choose the BoogieBoard pdf that you want to import (don't click open yet)
+  * in the filetype filter (the dropdown that says "All Images" choose "BoogieBoard PDF InkML"
+  * click open
+  * wait
+    * for a really long time .. really really long time
+    * for some more time
+  * tada! your image is open
 
 ## Warning
 * This module is "quick and dirty" and is written specifically for BoogieBoard Sync 9.7 , especially the version I use (which one? I still wonder). It is highly unlikely that it will work with any other InkML. 
 * The pen state calculations are not yet tested. I am writing these classes to write even more quick and dirty classes/plugins for gimp and Krit.a
 * It does *not* complain if you do not pass it an extended BoogieInkParser. So don't end up confusing yourself. 
+* The GIMP Plugin is extremely slow right now 
