@@ -1,0 +1,1148 @@
+<RecordedActions>
+  <RecordedAction opacity="1" strokeStyle="Brush" compositeOp="normal" id="PathPaintAction" name="Path" paintIncremental="0" fillStyle="None">
+    <PaintopPreset name="pixelbrush" paintopid="paintbrush">
+      <param name="AirbrushOption/isAirbrushing">false</param>
+      <param name="AirbrushOption/rate">100</param>
+      <param name="ColorSource/Type"><![CDATA[plain]]></param>
+      <param name="CompositeOp"><![CDATA[normal]]></param>
+      <param name="CurveDarken"><![CDATA[0,0;1,1;]]></param>
+      <param name="CurveMix"><![CDATA[0,0;1,1;]]></param>
+      <param name="CurveOpacity"><![CDATA[0,0;1,1;]]></param>
+      <param name="CurveRotation"><![CDATA[0,0;1,1;]]></param>
+      <param name="CurveSize"><![CDATA[0,0;1,1;]]></param>
+      <param name="CustomDarken"><![CDATA[true]]></param>
+      <param name="CustomMix"><![CDATA[true]]></param>
+      <param name="CustomOpacity"><![CDATA[true]]></param>
+      <param name="CustomRotation"><![CDATA[true]]></param>
+      <param name="CustomSize"><![CDATA[true]]></param>
+      <param name="DarkenSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure">
+ <curve>0,0;1,1;</curve>
+</params>
+]]></param>
+      <param name="DarkenUseCurve">true</param>
+      <param name="DarkenValue">1</param>
+      <param name="FlowValue">1</param>
+      <param name="HorizontalMirrorEnabled">false</param>
+      <param name="MirrorSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="MirrorUseCurve">true</param>
+      <param name="MirrorValue">1</param>
+      <param name="MixSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure">
+ <curve>0,0;1,1;</curve>
+</params>
+]]></param>
+      <param name="MixUseCurve">true</param>
+      <param name="MixValue">1</param>
+      <param name="OpacitySensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure">
+ <curve>0,0;1,1;</curve>
+</params>
+]]></param>
+      <param name="OpacityUseCurve">true</param>
+      <param name="OpacityValue">1</param>
+      <param name="PaintOpAction">2</param>
+      <param name="PressureDarken">false</param>
+      <param name="PressureMirror">false</param>
+      <param name="PressureMix">false</param>
+      <param name="PressureOpacity"><![CDATA[true]]></param>
+      <param name="PressureRotation">false</param>
+      <param name="PressureScatter">false</param>
+      <param name="PressureSharpness">false</param>
+      <param name="PressureSize">true</param>
+      <param name="PressureSoftness">false</param>
+      <param name="PressureSpacing">false</param>
+      <param name="Pressureh">false</param>
+      <param name="Pressures">false</param>
+      <param name="Pressurev">false</param>
+      <param name="RotationSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure">
+ <curve>0,0;1,1;</curve>
+</params>
+]]></param>
+      <param name="RotationUseCurve">true</param>
+      <param name="RotationValue">1</param>
+      <param name="ScatterSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="ScatterUseCurve">true</param>
+      <param name="ScatterValue">5</param>
+      <param name="Scattering/AxisX">true</param>
+      <param name="Scattering/AxisY">true</param>
+      <param name="Sharpness/threshold">4</param>
+      <param name="SharpnessSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="SharpnessUseCurve">true</param>
+      <param name="SharpnessValue">1</param>
+      <param name="SizeSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure">
+ <curve>0,0;1,1;</curve>
+</params>
+]]></param>
+      <param name="SizeUseCurve">true</param>
+      <param name="SizeValue">1</param>
+      <param name="SoftnessSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="SoftnessUseCurve">true</param>
+      <param name="SoftnessValue">1</param>
+      <param name="SpacingSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="SpacingUseCurve">true</param>
+      <param name="SpacingValue">1</param>
+      <param name="VerticalMirrorEnabled">false</param>
+      <param name="brush_definition"><![CDATA[<Brush type="auto_brush" randomness="0" density="1" BrushVersion="2" spacing="0.1" angle="0">
+ <MaskGenerator ratio="1" type="circle" vfade="0.5" id="default" spikes="2" hfade="0.5" diameter="5"/>
+</Brush>
+]]></param>
+      <param name="hSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="hUseCurve">true</param>
+      <param name="hValue">1</param>
+      <param name="paintop"><![CDATA[paintbrush]]></param>
+      <param name="sSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="sUseCurve">true</param>
+      <param name="sValue">1</param>
+      <param name="vSensor"><![CDATA[<!DOCTYPE params>
+<params id="pressure"/>
+]]></param>
+      <param name="vUseCurve">true</param>
+      <param name="vValue">1</param>
+    </PaintopPreset>
+    <ForegroundColor>
+      <RGB space="sRGB built-in" g="0" r="0" b="0"/>
+    </ForegroundColor>
+    <BackgroundColor>
+      <RGB space="sRGB built-in" g="1" r="1" b="1"/>
+    </BackgroundColor>
+    <Slices>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1247.01348747592" pointY="186.512524084778" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="0"/>
+        <Control1 x="1245.985870263327" y="186.5125240847784"/>
+        <Control2 x="1244.394721030932" y="187.440694470342"/>
+        <Point2 rotation="0" perspective="1" pointX="1243.93063583815" pointY="186.512524084778" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="42"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1243.93063583815" pointY="186.512524084778" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="42"/>
+        <Control1 x="1243.367103818344" y="185.3854600451654"/>
+        <Control2 x="1243.93063583815" y="182.0105820105819"/>
+        <Point2 rotation="0" perspective="1" pointX="1243.93063583815" pointY="180.346820809248" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552992" time="93"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1243.93063583815" pointY="180.346820809248" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552992" time="93"/>
+        <Control1 x="1243.93063583815" y="179.9553475854053"/>
+        <Control2 x="1243.93063583815" y="181.3744380218368"/>
+        <Point2 rotation="0" perspective="1" pointX="1243.93063583815" pointY="180.346820809248" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="105"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1243.93063583815" pointY="180.346820809248" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="105"/>
+        <Control1 x="1243.93063583815" y="179.3192035966602"/>
+        <Control2 x="1243.93063583815" y="175.603972135764"/>
+        <Point2 rotation="0" perspective="1" pointX="1243.93063583815" pointY="174.181117533719" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="117"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1243.93063583815" pointY="174.181117533719" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="117"/>
+        <Control1 x="1243.93063583815" y="172.521120497999"/>
+        <Control2 x="1242.864958728799" y="172.1639430053046"/>
+        <Point2 rotation="0" perspective="1" pointX="1243.93063583815" pointY="171.098265895954" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="131"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1243.93063583815" pointY="171.098265895954" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="131"/>
+        <Control1 x="1244.920193153976" y="170.1087085801279"/>
+        <Control2 x="1247.958895311496" y="169.0841361592806"/>
+        <Point2 rotation="0" perspective="1" pointX="1250.09633911368" pointY="168.015414258189" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="144"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1250.09633911368" pointY="168.015414258189" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="144"/>
+        <Control1 x="1252.06936416185" y="167.028901734104"/>
+        <Control2 x="1254.364902919816" y="165.8811323551208"/>
+        <Point2 rotation="0" perspective="1" pointX="1256.26204238921" pointY="164.932562620424" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="156"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1256.26204238921" pointY="164.932562620424" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="156"/>
+        <Control1 x="1258.475371770169" y="163.8258979299441"/>
+        <Control2 x="1260.296391446038" y="162.3825495373343"/>
+        <Point2 rotation="0" perspective="1" pointX="1262.42774566474" pointY="161.849710982659" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.082851637765" time="170"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1262.42774566474" pointY="161.849710982659" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.082851637765" time="170"/>
+        <Control1 x="1264.406860296391" y="161.354932324746"/>
+        <Control2 x="1266.990366088632" y="161.8497109826589"/>
+        <Point2 rotation="0" perspective="1" pointX="1268.59344894027" pointY="161.849710982659" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="183"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1268.59344894027" pointY="161.849710982659" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="183"/>
+        <Control1 x="1270.073217726397" y="161.8497109826589"/>
+        <Control2 x="1271.02727918061" y="161.8497109826589"/>
+        <Point2 rotation="0" perspective="1" pointX="1271.67630057803" pointY="161.849710982659" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="195"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1271.67630057803" pointY="161.849710982659" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="195"/>
+        <Control1 x="1273.082513605787" y="161.8497109826589"/>
+        <Control2 x="1273.711385646101" y="161.8497109826589"/>
+        <Point2 rotation="0" perspective="1" pointX="1274.7591522158" pointY="161.849710982659" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="221"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1274.7591522158" pointY="161.849710982659" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="221"/>
+        <Control1 x="1275.766620071278" y="161.8497109826589"/>
+        <Control2 x="1275.865816906279" y="161.8497109826589"/>
+        <Point2 rotation="0" perspective="1" pointX="1277.84200385356" pointY="161.849710982659" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="246"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1277.84200385356" pointY="161.849710982659" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="246"/>
+        <Control1 x="1278.948668544044" y="161.8497109826589"/>
+        <Control2 x="1282.347710093375" y="161.8497109826589"/>
+        <Point2 rotation="0" perspective="1" pointX="1284.00770712909" pointY="161.849710982659" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="260"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1284.00770712909" pointY="161.849710982659" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="260"/>
+        <Control1 x="1285.43056173114" y="161.8497109826589"/>
+        <Control2 x="1285.610789980732" y="161.8497109826589"/>
+        <Point2 rotation="0" perspective="1" pointX="1287.09055876686" pointY="161.849710982659" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="272"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1287.09055876686" pointY="161.849710982659" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="272"/>
+        <Control1 x="1288.693641618497" y="161.8497109826589"/>
+        <Control2 x="1291.201027617213" y="162.363519588953"/>
+        <Point2 rotation="0" perspective="1" pointX="1293.25626204239" pointY="161.849710982659" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="285"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1293.25626204239" pointY="161.849710982659" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="285"/>
+        <Control1 x="1295.311496467566" y="161.3359023763647"/>
+        <Control2 x="1297.284521515735" y="159.3012202954399"/>
+        <Point2 rotation="0" perspective="1" pointX="1299.42196531792" pointY="158.766859344894" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="298"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1299.42196531792" pointY="158.766859344894" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="298"/>
+        <Control1 x="1301.394990366088" y="158.2736030828516"/>
+        <Control2 x="1303.690529124055" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1305.58766859345" pointY="158.766859344894" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="310"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1305.58766859345" pointY="158.766859344894" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="310"/>
+        <Control1 x="1307.800997974408" y="158.766859344894"/>
+        <Control2 x="1309.540042488019" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1311.75337186898" pointY="158.766859344894" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="324"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1311.75337186898" pointY="158.766859344894" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="324"/>
+        <Control1 x="1313.650511338372" y="158.766859344894"/>
+        <Control2 x="1315.452793834296" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1317.91907514451" pointY="158.766859344894" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="336"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1317.91907514451" pointY="158.766859344894" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="336"/>
+        <Control1 x="1320.590879897238" y="158.766859344894"/>
+        <Control2 x="1325.112395632627" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1327.1676300578" pointY="158.766859344894" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="349"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1327.1676300578" pointY="158.766859344894" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="349"/>
+        <Control1 x="1329.22286448298" y="158.766859344894"/>
+        <Control2 x="1328.76614572183" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1330.25048169557" pointY="158.766859344894" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="362"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1330.25048169557" pointY="158.766859344894" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="362"/>
+        <Control1 x="1331.848997359595" y="158.766859344894"/>
+        <Control2 x="1333.649523244899" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1336.4161849711" pointY="158.766859344894" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="376"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1336.4161849711" pointY="158.766859344894" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="376"/>
+        <Control1 x="1338.78760930784" y="158.766859344894"/>
+        <Control2 x="1342.819030680302" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1345.66473988439" pointY="158.766859344894" xTilt="0" movementX="9.24855491329458" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="388"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1345.66473988439" pointY="158.766859344894" xTilt="0" movementX="9.24855491329458" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="388"/>
+        <Control1 x="1348.984733955832" y="158.766859344894"/>
+        <Control2 x="1351.716263469635" y="158.766859344894"/>
+        <Point2 rotation="0" perspective="1" pointX="1354.91329479769" pointY="158.766859344894" xTilt="0" movementX="9.24855491329504" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="402"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1354.91329479769" pointY="158.766859344894" xTilt="0" movementX="9.24855491329504" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="402"/>
+        <Control1 x="1357.881966745165" y="158.766859344894"/>
+        <Control2 x="1360.822093770071" y="158.210233354742"/>
+        <Point2 rotation="0" perspective="1" pointX="1364.16184971098" pointY="158.766859344894" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="415"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1364.16184971098" pointY="158.766859344894" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="415"/>
+        <Control1 x="1366.9877970456" y="159.2378505673303"/>
+        <Control2 x="1370.697495183044" y="160.9454078355812"/>
+        <Point2 rotation="0" perspective="1" pointX="1373.41040462428" pointY="161.849710982659" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="426"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1373.41040462428" pointY="161.849710982659" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="426"/>
+        <Control1 x="1376.863198458574" y="163.0006422607578"/>
+        <Control2 x="1379.994766764195" y="163.866885511073"/>
+        <Point2 rotation="0" perspective="1" pointX="1382.65895953757" pointY="164.932562620424" xTilt="0" movementX="9.24855491329458" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.082851637765" time="440"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1382.65895953757" pointY="164.932562620424" xTilt="0" movementX="9.24855491329458" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.082851637765" time="440"/>
+        <Control1 x="1385.132852827136" y="165.9221199362497"/>
+        <Control2 x="1386.041532862342" y="166.9021622778848"/>
+        <Point2 rotation="0" perspective="1" pointX="1388.8246628131" pointY="168.015414258189" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="453"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1388.8246628131" pointY="168.015414258189" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="453"/>
+        <Control1 x="1391.179618925283" y="168.9573967030614"/>
+        <Control2 x="1395.812459858702" y="170.193962748876"/>
+        <Point2 rotation="0" perspective="1" pointX="1398.0732177264" pointY="171.098265895954" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="464"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1398.0732177264" pointY="171.098265895954" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="464"/>
+        <Control1 x="1400.950545921644" y="172.2491971740526"/>
+        <Control2 x="1401.574728228549" y="172.5826018696924"/>
+        <Point2 rotation="0" perspective="1" pointX="1404.23892100193" pointY="174.181117533719" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="478"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1404.23892100193" pointY="174.181117533719" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="478"/>
+        <Control1 x="1406.712814291491" y="175.6654535074573"/>
+        <Control2 x="1410.815671162492" y="178.2093770070648"/>
+        <Point2 rotation="0" perspective="1" pointX="1413.48747591522" pointY="180.346820809248" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="491"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1413.48747591522" pointY="180.346820809248" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="491"/>
+        <Control1 x="1415.953757225433" y="182.319845857418"/>
+        <Control2 x="1417.756039721357" y="184.6153846153846"/>
+        <Point2 rotation="0" perspective="1" pointX="1419.65317919075" pointY="186.512524084778" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552992" time="503"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1419.65317919075" pointY="186.512524084778" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552992" time="503"/>
+        <Control1 x="1421.866508571711" y="188.7258534657378"/>
+        <Control2 x="1423.687528247579" y="190.5468731416065"/>
+        <Point2 rotation="0" perspective="1" pointX="1425.81888246628" pointY="192.678227360308" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="517"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1425.81888246628" pointY="192.678227360308" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="517"/>
+        <Control1 x="1427.797997097933" y="194.6573419919598"/>
+        <Control2 x="1430.915863840719" y="197.2408477842003"/>
+        <Point2 rotation="0" perspective="1" pointX="1431.98458574181" pointY="198.843930635838" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552986" time="530"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1431.98458574181" pointY="198.843930635838" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552986" time="530"/>
+        <Control1 x="1432.971098265896" y="200.3236994219652"/>
+        <Control2 x="1430.998073217726" y="200.4470134874758"/>
+        <Point2 rotation="0" perspective="1" pointX="1431.98458574181" pointY="201.926782273603" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="542"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1431.98458574181" pointY="201.926782273603" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="542"/>
+        <Control1 x="1433.053307642903" y="203.5298651252408"/>
+        <Control2 x="1436.608863198458" y="206.0372511239563"/>
+        <Point2 rotation="0" perspective="1" pointX="1438.15028901734" pointY="208.092485549133" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552992" time="555"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1438.15028901734" pointY="208.092485549133" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552992" time="555"/>
+        <Control1 x="1439.691714836223" y="210.1477199743096"/>
+        <Control2 x="1440.205523442517" y="212.2029543994861"/>
+        <Point2 rotation="0" perspective="1" pointX="1441.23314065511" pointY="214.258188824663" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="568"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1441.23314065511" pointY="214.258188824663" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="568"/>
+        <Control1 x="1442.260757867694" y="216.3134232498394"/>
+        <Control2 x="1443.288375080282" y="218.368657675016"/>
+        <Point2 rotation="0" perspective="1" pointX="1444.31599229287" pointY="220.423892100193" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="581"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1444.31599229287" pointY="220.423892100193" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="581"/>
+        <Control1 x="1445.343609505459" y="222.4791265253692"/>
+        <Control2 x="1446.40928661481" y="224.6104807440709"/>
+        <Point2 rotation="0" perspective="1" pointX="1447.39884393064" pointY="226.589595375722" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="594"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1447.39884393064" pointY="226.589595375722" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="594"/>
+        <Control1 x="1448.464521039987" y="228.7209495944241"/>
+        <Control2 x="1449.928363223161" y="231.6486339607726"/>
+        <Point2 rotation="0" perspective="1" pointX="1450.4816955684" pointY="232.755298651252" xTilt="0" movementX="3.08285163776463" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552992" time="608"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1450.4816955684" pointY="232.755298651252" xTilt="0" movementX="3.08285163776463" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552992" time="608"/>
+        <Control1 x="1450.955980435749" y="233.7038683859493"/>
+        <Control2 x="1449.988439306358" y="231.7687861271676"/>
+        <Point2 rotation="0" perspective="1" pointX="1450.4816955684" pointY="232.755298651252" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="620"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1450.4816955684" pointY="232.755298651252" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="620"/>
+        <Control1 x="1451.016056518946" y="233.8240205523442"/>
+        <Control2 x="1452.536929993577" y="236.8657675016056"/>
+        <Point2 rotation="0" perspective="1" pointX="1453.56454720617" pointY="238.921001926782" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="633"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1453.56454720617" pointY="238.921001926782" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="633"/>
+        <Control1 x="1454.592164418754" y="240.9762363519588"/>
+        <Control2 x="1455.044315992293" y="242.4149004495824"/>
+        <Point2 rotation="0" perspective="1" pointX="1456.64739884393" pointY="245.086705202312" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552986" time="646"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1456.64739884393" pointY="245.086705202312" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552986" time="646"/>
+        <Control1 x="1458.127167630058" y="247.552986512524"/>
+        <Control2 x="1461.333333333333" y="251.868978805395"/>
+        <Point2 rotation="0" perspective="1" pointX="1462.81310211946" pointY="254.335260115607" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="9.24855491329484" time="658"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1462.81310211946" pointY="254.335260115607" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="9.24855491329484" time="658"/>
+        <Control1 x="1464.416184971098" y="257.0070648683365"/>
+        <Control2 x="1465.382145150931" y="258.4457289659601"/>
+        <Point2 rotation="0" perspective="1" pointX="1465.89595375723" pointY="260.500963391137" xTilt="0" movementX="3.08285163776463" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="671"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1465.89595375723" pointY="260.500963391137" xTilt="0" movementX="3.08285163776463" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="671"/>
+        <Control1 x="1466.409762363519" y="262.5561978163133"/>
+        <Control2 x="1465.361592806679" y="264.5292228644829"/>
+        <Point2 rotation="0" perspective="1" pointX="1465.89595375723" pointY="266.666666666667" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="684"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1465.89595375723" pointY="266.666666666667" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="684"/>
+        <Control1 x="1466.389210019267" y="268.6396917148361"/>
+        <Control2 x="1468.504520527642" y="270.9352304728027"/>
+        <Point2 rotation="0" perspective="1" pointX="1468.97880539499" pointY="272.832369942197" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552995" time="696"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1468.97880539499" pointY="272.832369942197" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552995" time="696"/>
+        <Control1 x="1469.53213774023" y="275.045699323156"/>
+        <Control2 x="1468.97880539499" y="276.3338804443493"/>
+        <Point2 rotation="0" perspective="1" pointX="1468.97880539499" pointY="278.998073217726" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="710"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1468.97880539499" pointY="278.998073217726" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="710"/>
+        <Control1 x="1468.97880539499" y="281.4719665072908"/>
+        <Control2 x="1468.444444444444" y="285.5748233782915"/>
+        <Point2 rotation="0" perspective="1" pointX="1468.97880539499" pointY="288.246628131021" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="9.24855491329475" time="723"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1468.97880539499" pointY="288.246628131021" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="9.24855491329475" time="723"/>
+        <Control1 x="1469.472061657033" y="290.7129094412331"/>
+        <Control2 x="1471.568400770713" y="292.4393063583814"/>
+        <Point2 rotation="0" perspective="1" pointX="1472.06165703276" pointY="294.412331406551" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="735"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1472.06165703276" pointY="294.412331406551" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="735"/>
+        <Control1 x="1472.596017983301" y="296.5497752087347"/>
+        <Control2 x="1472.061657032755" y="299.0366088631984"/>
+        <Point2 rotation="0" perspective="1" pointX="1472.06165703276" pointY="300.578034682081" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="748"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1472.06165703276" pointY="300.578034682081" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="748"/>
+        <Control1 x="1472.061657032755" y="302.1194605009633"/>
+        <Control2 x="1471.527296082209" y="302.057803468208"/>
+        <Point2 rotation="0" perspective="1" pointX="1472.06165703276" pointY="303.660886319846" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="761"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1472.06165703276" pointY="303.660886319846" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="761"/>
+        <Control1 x="1472.554913294798" y="305.140655105973"/>
+        <Control2 x="1474.704101293697" y="308.505367464905"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="309.826589595376" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="773"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="309.826589595376" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="773"/>
+        <Control1 x="1475.731718506285" y="311.5882191026699"/>
+        <Control2 x="1475.14450867052" y="311.1603055521392"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="312.909441233141" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="789"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="312.909441233141" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="789"/>
+        <Control1 x="1475.14450867052" y="316.2983916150807"/>
+        <Control2 x="1475.14450867052" y="321.7782245678701"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="325.2408477842" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="12.3314065510597" time="820"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="325.2408477842" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="12.3314065510597" time="820"/>
+        <Control1 x="1475.14450867052" y="326.9163106308117"/>
+        <Control2 x="1475.14450867052" y="326.4739884393063"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="328.323699421965" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="835"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="328.323699421965" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="835"/>
+        <Control1 x="1475.14450867052" y="329.5568400770712"/>
+        <Control2 x="1475.14450867052" y="332.3259980394144"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="334.489402697495" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="845"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="334.489402697495" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="845"/>
+        <Control1 x="1475.14450867052" y="336.4364668897676"/>
+        <Control2 x="1475.14450867052" y="338.7080417807524"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="340.655105973025" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552995" time="854"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="340.655105973025" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552995" time="854"/>
+        <Control1 x="1475.14450867052" y="342.8185106311057"/>
+        <Control2 x="1475.14450867052" y="345.0336488788361"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="346.820809248555" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="864"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="346.820809248555" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="864"/>
+        <Control1 x="1475.14450867052" y="349.1441177291892"/>
+        <Control2 x="1475.14450867052" y="350.9312780989081"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="352.986512524085" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="877"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="352.986512524085" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="877"/>
+        <Control1 x="1475.14450867052" y="355.0417469492613"/>
+        <Control2 x="1475.14450867052" y="357.610789980732"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="359.152215799615" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="890"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="359.152215799615" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="890"/>
+        <Control1 x="1475.14450867052" y="360.693641618497"/>
+        <Control2 x="1475.14450867052" y="360.6319845857417"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="362.23506743738" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776503" time="903"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="362.23506743738" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776503" time="903"/>
+        <Control1 x="1475.14450867052" y="363.7148362235067"/>
+        <Control2 x="1475.14450867052" y="366.6998870506943"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="368.400770712909" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="915"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="368.400770712909" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="915"/>
+        <Control1 x="1475.14450867052" y="370.8103559010475"/>
+        <Control2 x="1475.708040690326" y="372.3123459092133"/>
+        <Point2 rotation="0" perspective="1" pointX="1475.14450867052" pointY="374.566473988439" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="932"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1475.14450867052" pointY="374.566473988439" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="932"/>
+        <Control1 x="1474.680423477738" y="376.4228147595664"/>
+        <Control2 x="1472.637122671805" y="379.0057803468207"/>
+        <Point2 rotation="0" perspective="1" pointX="1472.06165703276" pointY="380.732177263969" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="946"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1472.06165703276" pointY="380.732177263969" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="946"/>
+        <Control1 x="1471.609505459216" y="382.0886319845856"/>
+        <Control2 x="1472.59993271554" y="382.7384775361653"/>
+        <Point2 rotation="0" perspective="1" pointX="1472.06165703276" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="957"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1472.06165703276" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="957"/>
+        <Control1 x="1471.572315502951" y="384.793711961342"/>
+        <Control2 x="1469.87238557985" y="385.5575102622097"/>
+        <Point2 rotation="0" perspective="1" pointX="1468.97880539499" pointY="386.897880539499" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="967"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1468.97880539499" pointY="386.897880539499" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="967"/>
+        <Control1 x="1467.817151154673" y="388.6403618999747"/>
+        <Control2 x="1467.380289730964" y="391.0844691833773"/>
+        <Point2 rotation="0" perspective="1" pointX="1465.89595375723" pointY="393.063583815029" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327553001" time="980"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1465.89595375723" pointY="393.063583815029" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327553001" time="980"/>
+        <Control1 x="1464.297438093199" y="395.1949380337306"/>
+        <Control2 x="1461.390247517415" y="397.5692900548391"/>
+        <Point2 rotation="0" perspective="1" pointX="1459.7302504817" pointY="399.229287090559" xTilt="0" movementX="-6.16570327552949" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="994"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1459.7302504817" pointY="399.229287090559" xTilt="0" movementX="-6.16570327552949" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="994"/>
+        <Control1 x="1458.30739587965" y="400.6521416926041"/>
+        <Control2 x="1458.070253445976" y="400.8892841262783"/>
+        <Point2 rotation="0" perspective="1" pointX="1456.64739884393" pointY="402.312138728324" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="1006"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1456.64739884393" pointY="402.312138728324" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="1006"/>
+        <Control1 x="1454.987401808211" y="403.9721357640432"/>
+        <Control2 x="1452.613049787102" y="406.3464877851517"/>
+        <Point2 rotation="0" perspective="1" pointX="1450.4816955684" pointY="408.477842003853" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1020"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1450.4816955684" pointY="408.477842003853" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1020"/>
+        <Control1 x="1448.502580936749" y="410.456956635505"/>
+        <Control2 x="1445.985870263327" y="412.4170413187754"/>
+        <Point2 rotation="0" perspective="1" pointX="1444.31599229287" pointY="414.643545279383" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327553001" time="1033"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1444.31599229287" pointY="414.643545279383" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327553001" time="1033"/>
+        <Control1 x="1442.903018625562" y="416.5275101691287"/>
+        <Control2 x="1442.137443802183" y="419.9049454078356"/>
+        <Point2 rotation="0" perspective="1" pointX="1441.23314065511" pointY="420.809248554913" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1044"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1441.23314065511" pointY="420.809248554913" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1044"/>
+        <Control1 x="1440.082209377007" y="421.9601798330121"/>
+        <Control2 x="1440.281643236043" y="419.7435714455625"/>
+        <Point2 rotation="0" perspective="1" pointX="1438.15028901734" pointY="420.809248554913" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1058"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1438.15028901734" pointY="420.809248554913" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1058"/>
+        <Control1 x="1436.171174385689" y="421.798805870739"/>
+        <Control2 x="1431.573538856776" y="424.8375080282594"/>
+        <Point2 rotation="0" perspective="1" pointX="1428.90173410405" pointY="426.974951830443" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1071"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1428.90173410405" pointY="426.974951830443" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1071"/>
+        <Control1 x="1426.435452793834" y="428.9479768786127"/>
+        <Control2 x="1425.581740032607" y="431.2435156365792"/>
+        <Point2 rotation="0" perspective="1" pointX="1422.73603082852" pointY="433.140655105973" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1083"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1422.73603082852" pointY="433.140655105973" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1083"/>
+        <Control1 x="1419.416036757077" y="435.3539844869323"/>
+        <Control2 x="1414.66733271486" y="437.7078427174765"/>
+        <Point2 rotation="0" perspective="1" pointX="1410.40462427746" pointY="439.306358381503" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1097"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1410.40462427746" pointY="439.306358381503" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1097"/>
+        <Control1 x="1406.446395014153" y="440.7906943552414"/>
+        <Control2 x="1402.348105330764" y="440.78612716763"/>
+        <Point2 rotation="0" perspective="1" pointX="1398.0732177264" pointY="442.389210019268" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776503" time="1110"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1398.0732177264" pointY="442.389210019268" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776503" time="1110"/>
+        <Control1 x="1394.127167630058" y="443.868978805395"/>
+        <Control2 x="1389.687861271676" y="446.5818882466281"/>
+        <Point2 rotation="0" perspective="1" pointX="1385.74181117534" pointY="448.554913294798" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1122"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1385.74181117534" pointY="448.554913294798" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1122"/>
+        <Control1 x="1381.46692357097" y="450.6923570969813"/>
+        <Control2 x="1376.493256262042" y="453.179190751445"/>
+        <Point2 rotation="0" perspective="1" pointX="1373.41040462428" pointY="454.720616570327" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1135"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1373.41040462428" pointY="454.720616570327" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="1135"/>
+        <Control1 x="1370.327552986513" y="456.2620423892099"/>
+        <Control2 x="1370.450867052023" y="456.7347463070005"/>
+        <Point2 rotation="0" perspective="1" pointX="1367.24470134875" pointY="457.803468208092" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="1148"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1367.24470134875" pointY="457.803468208092" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="1148"/>
+        <Control1 x="1364.285163776493" y="458.7899807321771"/>
+        <Control2 x="1358.859344894027" y="459.8998073217725"/>
+        <Point2 rotation="0" perspective="1" pointX="1354.91329479769" pointY="460.886319845857" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="1160"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1354.91329479769" pointY="460.886319845857" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="1160"/>
+        <Control1 x="1350.63840719332" y="461.9550417469492"/>
+        <Control2 x="1346.178548490687" y="462.941554271034"/>
+        <Point2 rotation="0" perspective="1" pointX="1342.58188824663" pointY="463.969171483622" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="1173"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1342.58188824663" pointY="463.969171483622" xTilt="0" movementX="-12.3314065510597" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="1173"/>
+        <Control1 x="1338.985228002569" y="464.9967886962106"/>
+        <Control2 x="1336.416184971098" y="466.538214515093"/>
+        <Point2 rotation="0" perspective="1" pointX="1333.33333333333" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329504" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="1186"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1333.33333333333" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329504" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="1186"/>
+        <Control1 x="1330.250481695568" y="467.5658317276813"/>
+        <Control2 x="1327.167630057803" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1324.08477842004" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1199"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1324.08477842004" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1199"/>
+        <Control1 x="1321.001926782273" y="467.0520231213872"/>
+        <Control2 x="1317.405266538214" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1314.83622350674" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329458" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1212"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1314.83622350674" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329458" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1212"/>
+        <Control1 x="1312.267180475273" y="467.0520231213872"/>
+        <Control2 x="1310.807964033397" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1308.67052023121" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1225"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1308.67052023121" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1225"/>
+        <Control1 x="1306.697495183044" y="467.0520231213872"/>
+        <Control2 x="1304.401956425078" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1302.50481695568" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1237"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1302.50481695568" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1237"/>
+        <Control1 x="1300.291487574724" y="467.0520231213872"/>
+        <Control2 x="1298.470467898856" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1296.33911368015" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1251"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1296.33911368015" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1251"/>
+        <Control1 x="1294.359999048502" y="467.0520231213872"/>
+        <Control2 x="1292.845215157354" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1290.17341040462" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1264"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1290.17341040462" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1264"/>
+        <Control1 x="1287.707129094412" y="467.0520231213872"/>
+        <Control2 x="1283.296279828071" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1280.92485549133" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1276"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1280.92485549133" pointY="467.052023121387" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1276"/>
+        <Control1 x="1278.15819376513" y="467.0520231213872"/>
+        <Control2 x="1276.972481596759" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1274.7591522158" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1290"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1274.7591522158" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1290"/>
+        <Control1 x="1272.862012746406" y="467.0520231213872"/>
+        <Control2 x="1270.134874759152" y="467.0520231213872"/>
+        <Point2 rotation="0" perspective="1" pointX="1268.59344894027" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1302"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1268.59344894027" pointY="467.052023121387" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1302"/>
+        <Control1 x="1267.052023121387" y="467.0520231213872"/>
+        <Control2 x="1266.93345190455" y="468.000592856084"/>
+        <Point2 rotation="0" perspective="1" pointX="1265.5105973025" pointY="467.052023121387" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1314"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1265.5105973025" pointY="467.052023121387" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1314"/>
+        <Control1 x="1263.850600266785" y="465.9453584309074"/>
+        <Control2 x="1262.009086800352" y="463.017674064559"/>
+        <Point2 rotation="0" perspective="1" pointX="1259.34489402697" pointY="460.886319845857" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1328"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1259.34489402697" pointY="460.886319845857" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1328"/>
+        <Control1 x="1256.87100073741" y="458.9072052142058"/>
+        <Control2 x="1252.233782915864" y="456.8580603725111"/>
+        <Point2 rotation="0" perspective="1" pointX="1250.09633911368" pointY="454.720616570327" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1341"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1250.09633911368" pointY="454.720616570327" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1341"/>
+        <Control1 x="1248.12331406551" y="452.7475915221579"/>
+        <Control2 x="1247.962057210612" y="449.977767896843"/>
+        <Point2 rotation="0" perspective="1" pointX="1247.01348747592" pointY="448.554913294798" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1353"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1247.01348747592" pointY="448.554913294798" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1353"/>
+        <Control1 x="1245.906822785435" y="446.8949162590781"/>
+        <Control2 x="1244.996312947501" y="446.5377387663834"/>
+        <Point2 rotation="0" perspective="1" pointX="1243.93063583815" pointY="445.472061657033" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776503" time="1367"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1243.93063583815" pointY="445.472061657033" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776503" time="1367"/>
+        <Control1 x="1242.941078522324" y="444.4825043412068"/>
+        <Control2 x="1241.961036180689" y="443.5024619995718"/>
+        <Point2 rotation="0" perspective="1" pointX="1240.84778420039" pointY="442.389210019268" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.0828516377648" time="1380"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1240.84778420039" pointY="442.389210019268" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.0828516377648" time="1380"/>
+        <Control1 x="1239.905801755513" y="441.4472275743952"/>
+        <Control2 x="1238.217084136159" y="440.6628131021193"/>
+        <Point2 rotation="0" perspective="1" pointX="1237.76493256262" pointY="439.306358381503" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776503" time="1391"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1237.76493256262" pointY="439.306358381503" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776503" time="1391"/>
+        <Control1 x="1237.189466923571" y="437.5799614643544"/>
+        <Control2 x="1238.297771117296" y="435.8048478793501"/>
+        <Point2 rotation="0" perspective="1" pointX="1237.76493256262" pointY="433.140655105973" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1405"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1237.76493256262" pointY="433.140655105973" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1405"/>
+        <Control1 x="1237.270153904708" y="430.6667618164085"/>
+        <Control2 x="1235.750802825947" y="427.0982658959537"/>
+        <Point2 rotation="0" perspective="1" pointX="1234.68208092486" pointY="423.892100192678" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-9.24855491329481" time="1418"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1234.68208092486" pointY="423.892100192678" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-9.24855491329481" time="1418"/>
+        <Control1 x="1233.695568400771" y="420.9325626204238"/>
+        <Control2 x="1232.073514154439" y="417.0149696161257"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="414.643545279383" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-9.2485549132947" time="1430"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="414.643545279383" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-9.2485549132947" time="1430"/>
+        <Control1 x="1231.045896941851" y="411.8768835531841"/>
+        <Control2 x="1231.59922928709" y="410.6091962225551"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="408.477842003853" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327553001" time="1444"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="408.477842003853" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327553001" time="1444"/>
+        <Control1 x="1231.59922928709" y="406.4987273722019"/>
+        <Control2 x="1231.59922928709" y="404.4495825305073"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="402.312138728324" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1457"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="402.312138728324" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1457"/>
+        <Control1 x="1231.59922928709" y="400.339113680154"/>
+        <Control2 x="1231.59922928709" y="398.1194605009633"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="396.146435452794" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1469"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="396.146435452794" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1469"/>
+        <Control1 x="1231.59922928709" y="394.0089916506101"/>
+        <Control2 x="1231.59922928709" y="392.0359666024406"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="389.980732177264" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1482"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="389.980732177264" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1482"/>
+        <Control1 x="1231.59922928709" y="387.9254977520873"/>
+        <Control2 x="1231.59922928709" y="385.9524727039177"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552989" time="1495"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552989" time="1495"/>
+        <Control1 x="1231.59922928709" y="381.8420038535644"/>
+        <Control2 x="1231.59922928709" y="379.546465095598"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="377.649325626204" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1507"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="377.649325626204" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1507"/>
+        <Control1 x="1231.59922928709" y="375.4359962452448"/>
+        <Control2 x="1231.59922928709" y="373.614976569376"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="371.483622350674" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1521"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="371.483622350674" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1521"/>
+        <Control1 x="1231.59922928709" y="369.5045077190228"/>
+        <Control2 x="1231.59922928709" y="367.4553628773281"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="365.317919075144" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327553001" time="1534"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="365.317919075144" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327553001" time="1534"/>
+        <Control1 x="1231.59922928709" y="363.3448940269748"/>
+        <Control2 x="1231.59922928709" y="361.1252408477841"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="359.152215799615" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1546"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="359.152215799615" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1546"/>
+        <Control1 x="1231.59922928709" y="357.0147719974308"/>
+        <Control2 x="1231.59922928709" y="354.9656271557362"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="352.986512524085" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1559"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="352.986512524085" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1559"/>
+        <Control1 x="1231.59922928709" y="350.855158305383"/>
+        <Control2 x="1231.023763648041" y="348.5472061657032"/>
+        <Point2 rotation="0" perspective="1" pointX="1231.59922928709" pointY="346.820809248555" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1573"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1231.59922928709" pointY="346.820809248555" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1573"/>
+        <Control1 x="1232.051380860629" y="345.4643545279383"/>
+        <Control2 x="1234.229929351317" y="344.6422607578676"/>
+        <Point2 rotation="0" perspective="1" pointX="1234.68208092486" pointY="343.73795761079" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1584"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1234.68208092486" pointY="343.73795761079" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1584"/>
+        <Control1 x="1235.257546563905" y="342.587026332691"/>
+        <Control2 x="1234.14924237018" y="342.2536216370513"/>
+        <Point2 rotation="0" perspective="1" pointX="1234.68208092486" pointY="340.655105973025" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1598"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1234.68208092486" pointY="340.655105973025" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1598"/>
+        <Control1 x="1235.176859582768" y="339.1707699992863"/>
+        <Control2 x="1236.696210661529" y="336.0924855491328"/>
+        <Point2 rotation="0" perspective="1" pointX="1237.76493256262" pointY="334.489402697495" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552995" time="1611"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1237.76493256262" pointY="334.489402697495" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552995" time="1611"/>
+        <Control1 x="1238.751445086705" y="333.0096339113679"/>
+        <Control2 x="1239.899214465688" y="332.355120794427"/>
+        <Point2 rotation="0" perspective="1" pointX="1240.84778420039" pointY="331.40655105973" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1623"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1240.84778420039" pointY="331.40655105973" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1623"/>
+        <Control1 x="1241.954448890865" y="330.2998863692504"/>
+        <Control2 x="1242.270638802431" y="329.9836964576848"/>
+        <Point2 rotation="0" perspective="1" pointX="1243.93063583815" pointY="328.323699421965" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1637"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1243.93063583815" pointY="328.323699421965" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1637"/>
+        <Control1 x="1245.353490440196" y="326.9008448199199"/>
+        <Control2 x="1248.554913294798" y="323.6994219653178"/>
+        <Point2 rotation="0" perspective="1" pointX="1250.09633911368" pointY="322.157996146435" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1649"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1250.09633911368" pointY="322.157996146435" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552984" time="1649"/>
+        <Control1 x="1251.637764932562" y="320.6165703275529"/>
+        <Control2 x="1252.230621016748" y="320.0237142433674"/>
+        <Point2 rotation="0" perspective="1" pointX="1253.17919075144" pointY="319.07514450867" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1661"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1253.17919075144" pointY="319.07514450867" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1661"/>
+        <Control1 x="1254.285855441924" y="317.9684798181908"/>
+        <Control2 x="1254.130688170508" y="317.5908085349318"/>
+        <Point2 rotation="0" perspective="1" pointX="1256.26204238921" pointY="315.992292870906" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1675"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1256.26204238921" pointY="315.992292870906" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1675"/>
+        <Control1 x="1258.241157020861" y="314.5079568971669"/>
+        <Control2 x="1263.373153500321" y="310.8953114964675"/>
+        <Point2 rotation="0" perspective="1" pointX="1265.5105973025" pointY="309.826589595376" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552989" time="1688"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1265.5105973025" pointY="309.826589595376" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552989" time="1688"/>
+        <Control1 x="1267.483622350674" y="308.8400770712909"/>
+        <Control2 x="1267.113680154142" y="310.319845857418"/>
+        <Point2 rotation="0" perspective="1" pointX="1268.59344894027" pointY="309.826589595376" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1700"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1268.59344894027" pointY="309.826589595376" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1700"/>
+        <Control1 x="1270.196531791907" y="309.2922286448297"/>
+        <Control2 x="1272.850720249564" y="308.1750619322873"/>
+        <Point2 rotation="0" perspective="1" pointX="1274.7591522158" pointY="306.743737957611" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1713"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1274.7591522158" pointY="306.743737957611" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1713"/>
+        <Control1 x="1276.961189099917" y="305.0922102945224"/>
+        <Control2 x="1277.960575070401" y="302.3566029346375"/>
+        <Point2 rotation="0" perspective="1" pointX="1280.92485549133" pointY="300.578034682081" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552989" time="1728"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1280.92485549133" pointY="300.578034682081" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-6.16570327552989" time="1728"/>
+        <Control1 x="1283.098661133343" y="299.2737512968726"/>
+        <Control2 x="1287.818454292443" y="297.9661742667522"/>
+        <Point2 rotation="0" perspective="1" pointX="1290.17341040462" pointY="297.495183044316" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1739"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1290.17341040462" pointY="297.495183044316" xTilt="0" movementX="9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1739"/>
+        <Control1 x="1292.956540355384" y="296.9385570541639"/>
+        <Control2 x="1294.797687861271" y="297.4951830443159"/>
+        <Point2 rotation="0" perspective="1" pointX="1296.33911368015" pointY="297.495183044316" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1752"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1296.33911368015" pointY="297.495183044316" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1752"/>
+        <Control1 x="1297.880539499037" y="297.4951830443159"/>
+        <Control2 x="1297.818882466281" y="298.0295439948619"/>
+        <Point2 rotation="0" perspective="1" pointX="1299.42196531792" pointY="297.495183044316" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1765"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1299.42196531792" pointY="297.495183044316" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1765"/>
+        <Control1 x="1300.901734104046" y="297.0019267822735"/>
+        <Control2 x="1304.107899807322" y="294.9055876685934"/>
+        <Point2 rotation="0" perspective="1" pointX="1305.58766859345" pointY="294.412331406551" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1777"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1305.58766859345" pointY="294.412331406551" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="-3.08285163776492" time="1777"/>
+        <Control1 x="1307.190751445087" y="293.8779704560051"/>
+        <Control2 x="1307.129094412331" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1308.67052023121" pointY="294.412331406551" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1790"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1308.67052023121" pointY="294.412331406551" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1790"/>
+        <Control1 x="1310.211946050096" y="294.412331406551"/>
+        <Control2 x="1312.780989081567" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1314.83622350674" pointY="294.412331406551" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1803"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1314.83622350674" pointY="294.412331406551" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1803"/>
+        <Control1 x="1316.89145793192" y="294.412331406551"/>
+        <Control2 x="1319.460500963391" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1321.00192678227" pointY="294.412331406551" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1816"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1321.00192678227" pointY="294.412331406551" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1816"/>
+        <Control1 x="1322.543352601156" y="294.412331406551"/>
+        <Control2 x="1322.543352601156" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1324.08477842004" pointY="294.412331406551" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1829"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1324.08477842004" pointY="294.412331406551" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1829"/>
+        <Control1 x="1325.626204238921" y="294.412331406551"/>
+        <Control2 x="1328.647398843931" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1330.25048169557" pointY="294.412331406551" xTilt="0" movementX="6.16570327553018" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1842"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1330.25048169557" pointY="294.412331406551" xTilt="0" movementX="6.16570327553018" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1842"/>
+        <Control1 x="1331.730250481696" y="294.412331406551"/>
+        <Control2 x="1331.910478731288" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1333.33333333333" pointY="294.412331406551" xTilt="0" movementX="3.08285163776463" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1854"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1333.33333333333" pointY="294.412331406551" xTilt="0" movementX="3.08285163776463" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1854"/>
+        <Control1 x="1334.993330369053" y="294.412331406551"/>
+        <Control2 x="1338.392371918383" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1339.49903660886" pointY="294.412331406551" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1868"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1339.49903660886" pointY="294.412331406551" xTilt="0" movementX="6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1868"/>
+        <Control1 x="1341.475223556148" y="294.412331406551"/>
+        <Control2 x="1340.655105973025" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1342.58188824663" pointY="294.412331406551" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1893"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1342.58188824663" pointY="294.412331406551" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1893"/>
+        <Control1 x="1343.73795761079" y="294.412331406551"/>
+        <Control2 x="1347.255889116788" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1348.74759152216" pointY="294.412331406551" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1908"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1348.74759152216" pointY="294.412331406551" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1908"/>
+        <Control1 x="1350.338740754553" y="294.412331406551"/>
+        <Control2 x="1350.129559497708" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1351.83044315992" pointY="294.412331406551" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1924"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1351.83044315992" pointY="294.412331406551" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1924"/>
+        <Control1 x="1353.212411135473" y="294.412331406551"/>
+        <Control2 x="1356.564822460776" y="294.412331406551"/>
+        <Point2 rotation="0" perspective="1" pointX="1357.99614643545" pointY="294.412331406551" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1937"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1357.99614643545" pointY="294.412331406551" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1937"/>
+        <Control1 x="1359.647674098541" y="294.412331406551"/>
+        <Control2 x="1360.051380860629" y="293.8985228002568"/>
+        <Point2 rotation="0" perspective="1" pointX="1361.07899807322" pointY="294.412331406551" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1952"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1361.07899807322" pointY="294.412331406551" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="1952"/>
+        <Control1 x="1362.106615285806" y="294.9261400128452"/>
+        <Control2 x="1362.567271277656" y="295.9006046109892"/>
+        <Point2 rotation="0" perspective="1" pointX="1364.16184971098" pointY="297.495183044316" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="1967"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1364.16184971098" pointY="297.495183044316" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="1967"/>
+        <Control1 x="1365.650122915421" y="298.9834562487542"/>
+        <Control2 x="1368.601156069364" y="301.9344894026975"/>
+        <Point2 rotation="0" perspective="1" pointX="1370.32755298651" pointY="303.660886319846" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="1981"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1370.32755298651" pointY="303.660886319846" xTilt="0" movementX="6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="1981"/>
+        <Control1 x="1371.684007707129" y="305.0173410404624"/>
+        <Control2 x="1372.703917790623" y="306.0372511239563"/>
+        <Point2 rotation="0" perspective="1" pointX="1373.41040462428" pointY="306.743737957611" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="1992"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1373.41040462428" pointY="306.743737957611" xTilt="0" movementX="3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="1992"/>
+        <Control1 x="1374.7591522158" y="308.0924855491329"/>
+        <Control2 x="1375.818882466281" y="307.8034682080924"/>
+        <Point2 rotation="0" perspective="1" pointX="1376.49325626204" pointY="309.826589595376" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2013"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1376.49325626204" pointY="309.826589595376" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2013"/>
+        <Control1 x="1376.846499678869" y="310.8863198458574"/>
+        <Control2 x="1375.979447655748" y="313.9370584457289"/>
+        <Point2 rotation="0" perspective="1" pointX="1376.49325626204" pointY="315.992292870906" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="2024"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1376.49325626204" pointY="315.992292870906" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="2024"/>
+        <Control1 x="1377.007064868336" y="318.0475272960822"/>
+        <Control2 x="1379.105116677371" y="320.7450224791265"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="322.157996146435" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2035"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="322.157996146435" xTilt="0" movementX="3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2035"/>
+        <Control1 x="1380.132733889959" y="323.8278741168914"/>
+        <Control2 x="1379.576107899807" y="324.213230571612"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="325.2408477842" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2048"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="325.2408477842" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2048"/>
+        <Control1 x="1379.576107899807" y="326.2684649967886"/>
+        <Control2 x="1379.576107899807" y="327.2549775208734"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="328.323699421965" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2061"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="328.323699421965" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2061"/>
+        <Control1 x="1379.576107899807" y="329.31021194605"/>
+        <Control2 x="1379.576107899807" y="329.926782273603"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="331.40655105973" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2073"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="331.40655105973" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776492" time="2073"/>
+        <Control1 x="1379.576107899807" y="333.0096339113679"/>
+        <Control2 x="1379.576107899807" y="335.5170199100834"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="337.57225433526" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="2086"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="337.57225433526" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="2086"/>
+        <Control1 x="1379.576107899807" y="339.6274887604367"/>
+        <Control2 x="1379.576107899807" y="341.6005138086062"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="343.73795761079" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="2099"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="343.73795761079" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552989" time="2099"/>
+        <Control1 x="1379.576107899807" y="345.7109826589595"/>
+        <Control2 x="1379.576107899807" y="348.006521416926"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="349.90366088632" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552995" time="2111"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="349.90366088632" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552995" time="2111"/>
+        <Control1 x="1379.576107899807" y="352.1169902672793"/>
+        <Control2 x="1380.641785009158" y="353.938009943148"/>
+        <Point2 rotation="0" perspective="1" pointX="1379.57610789981" pointY="356.06936416185" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2125"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1379.57610789981" pointY="356.06936416185" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2125"/>
+        <Control1 x="1378.586550583981" y="358.0484787935013"/>
+        <Control2 x="1375.547848426461" y="360.0976236351959"/>
+        <Point2 rotation="0" perspective="1" pointX="1373.41040462428" pointY="362.23506743738" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2138"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1373.41040462428" pointY="362.23506743738" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2138"/>
+        <Control1 x="1371.437379576108" y="364.2080924855491"/>
+        <Control2 x="1368.667555950793" y="366.977916110864"/>
+        <Point2 rotation="0" perspective="1" pointX="1367.24470134875" pointY="368.400770712909" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2150"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1367.24470134875" pointY="368.400770712909" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="6.16570327552984" time="2150"/>
+        <Control1 x="1365.584704313028" y="370.060767748629"/>
+        <Control2 x="1366.375179091942" y="370.3769576601946"/>
+        <Point2 rotation="0" perspective="1" pointX="1364.16184971098" pointY="371.483622350674" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="2164"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1364.16184971098" pointY="371.483622350674" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="2164"/>
+        <Control1 x="1362.264710241589" y="372.4321920853712"/>
+        <Control2 x="1357.482337829158" y="373.5388567758509"/>
+        <Point2 rotation="0" perspective="1" pointX="1354.91329479769" pointY="374.566473988439" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="2176"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1354.91329479769" pointY="374.566473988439" xTilt="0" movementX="-9.24855491329481" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="2176"/>
+        <Control1 x="1352.344251766217" y="375.5940912010275"/>
+        <Control2 x="1350.644730991552" y="376.7007558915073"/>
+        <Point2 rotation="0" perspective="1" pointX="1348.74759152216" pointY="377.649325626204" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="2188"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1348.74759152216" pointY="377.649325626204" xTilt="0" movementX="-6.16570327552995" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="2188"/>
+        <Control1 x="1346.534262141198" y="378.7559903166839"/>
+        <Control2 x="1345.246081020005" y="379.6665001546182"/>
+        <Point2 rotation="0" perspective="1" pointX="1342.58188824663" pointY="380.732177263969" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="2202"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1342.58188824663" pointY="380.732177263969" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776486" time="2202"/>
+        <Control1 x="1340.107994957064" y="381.7217345797948"/>
+        <Control2 x="1336.005138086063" y="383.2806679511881"/>
+        <Point2 rotation="0" perspective="1" pointX="1333.33333333333" pointY="383.815028901734" xTilt="0" movementX="-9.24855491329504" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="2215"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1333.33333333333" pointY="383.815028901734" xTilt="0" movementX="-9.24855491329504" tangentialPressure="0" pressure="1" yTilt="0" movementY="3.08285163776497" time="2215"/>
+        <Control1 x="1330.867052023121" y="384.3082851637764"/>
+        <Control2 x="1328.590484659849" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1327.1676300578" pointY="383.815028901734" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2227"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1327.1676300578" pointY="383.815028901734" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2227"/>
+        <Control1 x="1325.507633022084" y="383.815028901734"/>
+        <Control2 x="1325.683294084065" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1324.08477842004" pointY="383.815028901734" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2241"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1324.08477842004" pointY="383.815028901734" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2241"/>
+        <Control1 x="1322.600442446299" y="383.815028901734"/>
+        <Control2 x="1319.522157996146" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1317.91907514451" pointY="383.815028901734" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2254"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1317.91907514451" pointY="383.815028901734" xTilt="0" movementX="-6.16570327552972" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2254"/>
+        <Control1 x="1316.439306358381" y="383.815028901734"/>
+        <Control2 x="1315.822736030829" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1314.83622350674" pointY="383.815028901734" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2266"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1314.83622350674" pointY="383.815028901734" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2266"/>
+        <Control1 x="1313.767501605652" y="383.815028901734"/>
+        <Control2 x="1312.104925125917" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1311.75337186898" pointY="383.815028901734" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2279"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1311.75337186898" pointY="383.815028901734" xTilt="0" movementX="-3.08285163776509" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2279"/>
+        <Control1 x="1311.077307913328" y="383.815028901734"/>
+        <Control2 x="1311.753371868979" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1311.75337186898" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2304"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1311.75337186898" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2304"/>
+        <Control1 x="1311.753371868979" y="383.815028901734"/>
+        <Control2 x="1311.753371868979" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1311.75337186898" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2330"/>
+      </Curve>
+      <Curve>
+        <Point1 rotation="0" perspective="1" pointX="1311.75337186898" pointY="383.815028901734" xTilt="0" movementX="0" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2330"/>
+        <Control1 x="1310.72575465639" y="383.815028901734"/>
+        <Control2 x="1309.698137443802" y="383.815028901734"/>
+        <Point2 rotation="0" perspective="1" pointX="1308.67052023121" pointY="383.815028901734" xTilt="0" movementX="-3.08285163776486" tangentialPressure="0" pressure="1" yTilt="0" movementY="0" time="2562"/>
+      </Curve>
+    </Slices>
+  </RecordedAction>
+</RecordedActions>
