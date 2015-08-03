@@ -32,6 +32,8 @@ http://myboogieboard.com/products/boogie-board-sync-9.html
   * wait
     * for a really long time .. really really long time
     * for some more time
+      Or
+    * If you just want to have some fun, keep changing brush and colors when it imports .. 
   * tada! your image is open
 
 ## Warning
