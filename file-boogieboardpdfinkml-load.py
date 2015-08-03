@@ -39,17 +39,17 @@ class BoogieInkGimpLoader(boogieInk.BoogieInkParser):
         pdb.gimp_progress_set_text("Importing trace #{0} of #{1}".format(self.trace_counter,self.numof_traces))
         pdb.gimp_progress_update(float(self.trace_counter)/float(self.numof_traces))
 
-        self.last_point=None
+        self.previous_point=None
 
     def trackedTracePointHandler(self, trace, trace_point,trace_len):
         point = [int(trace_point[0] * self.image_scale),int(trace_point[1] * self.image_scale)]
         self.sbs(1 + (self.orig_brush_size * (float(trace_point[2])/float(self.pressureMax)))) 
         self.so(float(trace_point[2]) * 0.09765625)
-        if self.last_point:
-            self.pb(self.draw_layer,4,self.last_point + point)
+        if self.previous_point:
+            self.pb(self.draw_layer,4,self.previous_point + point)
         else:
             self.pb(self.draw_layer,2,point)
-        self.last_point = point
+        self.previous_point = point
 
     def parseEndHandler(self):
         self.sbs(self.orig_brush_size)

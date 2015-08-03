@@ -84,8 +84,6 @@ class BoogieInkParser(object):
                 self.ink_dom.getElementsByTagNameNS('http://www.w3.org/2003/InkML','channel')])
         )
 
-
-    
         for trace in self.ink_dom.getElementsByTagNameNS('http://www.w3.org/2003/InkML','trace'):
             self.pen.reset()
             self.traceBeginHandler(trace)
