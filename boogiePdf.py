@@ -14,11 +14,13 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import pdfrw
 import boogieInk
+import sys
 
 class BoogiePDFParser(object):
     def __init__(self,filename):
         self.filename = filename
         self.inkml_string = self.getInkML()
+
     def getInkML(self):
         r = pdfrw.PdfReader(self.filename)
         return r['/Root']['/Names']['/EmbeddedFiles']['/Names'][1]['/EF']['/F'].stream
@@ -28,3 +30,12 @@ class BoogiePDFParser(object):
         self.inkml_parser.parse(simple)
         
         
+if __name__ == '__main__':
+    
+    if len(sys.argv) == 3:
+        parser = BoogiePDFParser(sys.argv[2])
+        command = sys.argv[1]
+        if command == "getink":
+            print parser.getInkML()
+    else:
+        print """Usage: %s command pdffile"""
