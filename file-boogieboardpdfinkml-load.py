@@ -39,7 +39,8 @@ class BoogieInkGimpLoader(boogieInk.BoogieInkParser):
         pdb.gimp_progress_set_text("Importing trace #{0} of #{1}".format(self.trace_counter,self.numof_traces))
         pdb.gimp_progress_update(float(self.trace_counter)/float(self.numof_traces))
 
-        self.previous_point=None
+        self.previous_point = None
+        self.points = []
 
     def trackedTracePointHandler(self, trace, trace_point,trace_len):
         point = [int(trace_point[0] * self.image_scale),int(trace_point[1] * self.image_scale)]
@@ -54,10 +55,21 @@ class BoogieInkGimpLoader(boogieInk.BoogieInkParser):
     def parseEndHandler(self):
         self.sbs(self.orig_brush_size)
 
-def load_boogiepdf(filename, raw_filename):
+class BoogieInkGimpLoaderSimple(BoogieInkGimpLoader):
+    def trackedTracePointHandler(self, trace, trace_point,trace_len):
+        self.points.extend([int(trace_point[0] * self.image_scale),int(trace_point[1] * self.image_scale)])
+
+    def traceEndHandler(self, trace):
+        self.pb(self.draw_layer,len(self.points),self.points)
+    
+
+def load_boogiepdf(filename, raw_filename, skipped_param, skip_import_pressure):
     try:
         boogie_pdf_parser = boogiePdf.BoogiePDFParser(filename) 
-        boogie_pdf_parser.parse(parser_class = BoogieInkGimpLoader)
+        if skip_import_pressure:
+            boogie_pdf_parser.parse(parser_class = BoogieInkGimpLoaderSimple)
+        else:
+            boogie_pdf_parser.parse(parser_class = BoogieInkGimpLoader)
         boogie_pdf_parser.inkml_parser.gimp_image.filename = filename
 
         return boogie_pdf_parser.inkml_parser.gimp_image
@@ -78,12 +90,15 @@ register(
     'load inkml from a BoogieBoard PDF',
     'Laxminarayan Kamath <kamathln@gmail.com>', #author
     'Laxminarayan Kamath <kamathln@gmail.com>', #copyright
-    '2012', #year
+    '2015', #year
     'BoogieBoard PDF InkML',
     None, #image type
     [   #input args. Format (type, name, description, default [, extra])
         (PF_STRING, 'filename', 'The name of the file to load', None),
         (PF_STRING, 'raw-filename', 'The name entered', None),
+        (PF_BOOL,'skipped_param', 'skipped_param',None),
+        (PF_BOOL,'skip_import_pressure', 'skip import pressure(fast)',False),
+       # (PF_BOOL,'run_type', 'Interact',True),
     ],
     [(PF_IMAGE, 'image', 'Output image')], #results. Format (type, name, description)
     load_boogiepdf, #callback
