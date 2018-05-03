@@ -23,8 +23,12 @@ class BoogiePDFParser(object):
 
     def getInkML(self):
         r = pdfrw.PdfReader(self.filename)
+        try:
+            r.uncompress()
+        except Exception:
+            pass
         return r['/Root']['/Names']['/EmbeddedFiles']['/Names'][1]['/EF']['/F'].stream
-
+    
     def parse(self, parser_class = boogieInk.BoogieInkParser, simple = False):
         self.inkml_parser = parser_class(self.inkml_string)
         self.inkml_parser.parse(simple)
