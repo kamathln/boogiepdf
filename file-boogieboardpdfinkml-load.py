@@ -13,6 +13,7 @@
 from gimpfu import *
 
 import boogiePdf, boogieInk
+import sys
 
 class BoogieInkGimpLoader(boogieInk.BoogieInkParser):
 
@@ -31,6 +32,7 @@ class BoogieInkGimpLoader(boogieInk.BoogieInkParser):
         self.sbs = pdb['gimp-context-set-brush-size']
         self.pb  = pdb['gimp-paintbrush-default']
         self.so  = pdb['gimp-context-set-opacity']
+        self.orig_opacity = pdb['gimp-context-get-opacity']()
         self.trace_counter = 0
 
     def traceBeginHandler(self,trace):
@@ -44,8 +46,11 @@ class BoogieInkGimpLoader(boogieInk.BoogieInkParser):
 
     def trackedTracePointHandler(self, trace, trace_point,trace_len):
         point = [int(trace_point[0] * self.image_scale),int(trace_point[1] * self.image_scale)]
-        self.sbs(1 + (self.orig_brush_size * (float(trace_point[2])/float(self.pressureMax)))) 
-        self.so(float(trace_point[2]) * 0.09765625)
+        #pressure = float(self.trace_point[2]) * self.kwargs['pressure_multiplier']
+        pressure = float(trace_point[2]) * float(self.pressureMultiplier) * 1024.0 * float(self.kwargs['pressure_multiplier'])
+        self.sbs(1 + (self.orig_brush_size * (pressure/float(self.pressureMax)))) 
+        o = float(pressure) * 0.09765625
+        self.so(o if 0 <= o <= 100  else 100 )
         if self.previous_point:
             self.pb(self.draw_layer,4,self.previous_point + point)
         else:
@@ -53,6 +58,11 @@ class BoogieInkGimpLoader(boogieInk.BoogieInkParser):
         self.previous_point = point
 
     def parseEndHandler(self):
+        self.so(self.orig_opacity)
+        self.sbs(self.orig_brush_size)
+
+    def traceEndHandler(self,trace):
+        self.so(self.orig_opacity)
         self.sbs(self.orig_brush_size)
 
 class BoogieInkGimpLoaderSimple(BoogieInkGimpLoader):
@@ -63,13 +73,13 @@ class BoogieInkGimpLoaderSimple(BoogieInkGimpLoader):
         self.pb(self.draw_layer,len(self.points),self.points)
     
 
-def load_boogiepdf(filename, raw_filename, skipped_param, skip_import_pressure):
+def load_boogiepdf(filename, raw_filename, skipped_param, skip_import_pressure, pressure_multiplier):
     try:
         boogie_pdf_parser = boogiePdf.BoogiePDFParser(filename) 
         if skip_import_pressure:
             boogie_pdf_parser.parse(parser_class = BoogieInkGimpLoaderSimple)
         else:
-            boogie_pdf_parser.parse(parser_class = BoogieInkGimpLoader)
+            boogie_pdf_parser.parse(parser_class = BoogieInkGimpLoader, pressure_multiplier=pressure_multiplier)
         boogie_pdf_parser.inkml_parser.gimp_image.filename = filename
 
         return boogie_pdf_parser.inkml_parser.gimp_image
@@ -97,7 +107,8 @@ register(
         (PF_STRING, 'filename', 'The name of the file to load', None),
         (PF_STRING, 'raw-filename', 'The name entered', None),
         (PF_BOOL,'skipped_param', 'skipped_param',None),
-        (PF_BOOL,'skip_import_pressure', 'skip import pressure(fast)',False),
+        (PF_BOOL,'skip_import_pressure', 'skip import pressure(fast)',True),
+        (PF_SPINNER,'pressure_multiplier', 'Pressure multiplier',1.0, [0.0, 100.0, 0.01]),
        # (PF_BOOL,'run_type', 'Interact',True),
     ],
     [(PF_IMAGE, 'image', 'Output image')], #results. Format (type, name, description)

@@ -27,7 +27,8 @@ class BoogiePen(object):
 
 class BoogieInkParser(object):
     """ Ink Parser class.  """
-    def __init__(self,ink_string):
+    def __init__(self,ink_string, **kwargs):
+        self.kwargs = kwargs
         self.boogie_trace_point_regex = re.compile("\"?'?-?[0-9]+|\*")
         self.ink_string = ink_string
         self.ink_dom = xml.dom.minidom.parseString(self.ink_string)
